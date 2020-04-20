@@ -1,4 +1,4 @@
-package cn.yusite.example.kotlin.`class`
+package cn.yusite.example.kotlin.`class`.inher
 
 private class Person02(name: String) {
     var children: MutableList<Person02> = mutableListOf()

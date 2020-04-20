@@ -1,6 +1,4 @@
-package cn.yusite.example.kotlin.`class`
-
-import kotlin.concurrent.fixedRateTimer
+package cn.yusite.example.kotlin.`class`.inher
 
 private class Empty
 

@@ -1,4 +1,4 @@
-package cn.yusite.example.kotlin.`class`
+package cn.yusite.example.kotlin.`class`.inher
 
 open class Shape {
     open fun draw() { /*……*/
