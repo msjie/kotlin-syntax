@@ -3,7 +3,7 @@ package cn.yusite.example.kotlin.`class`.delegation
 interface Base {
     fun print()
 }
-class BaseImpl(val x: Int) : Base {
+class BaseImpl(private val x: Int) : Base {
     override fun print() { print(x) }
 }
 

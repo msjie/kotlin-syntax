@@ -4,7 +4,7 @@ interface BaseDelegation {
     fun printMessage()
     fun printMessageLine()
 }
-class BaseDelegationImpl(val x: Int) : BaseDelegation {
+class BaseDelegationImpl(private val x: Int) : BaseDelegation {
     override fun printMessage() { print(x) }
     override fun printMessageLine() { println(x) }
 }
