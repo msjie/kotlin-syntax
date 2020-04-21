@@ -7,10 +7,11 @@ package cn.yusite.example.kotlin.cla.interf
 interface MyInterface {
     val prop: Int
     fun test()
-    fun test01() {
+    fun test01(): Int {
 
         println("MyInterface method")
         println(prop)
+        return 2
     }
 }
 
@@ -23,18 +24,20 @@ class Child : MyInterface {
         println("child test method")
     }
 
-    override fun test01() {
+    override fun test01(): Int {
 
         super.test01()
         println("child test01 method")
+        return 1
     }
 }
 
 fun main() {
 
     var child = Child()
-    child.let {
+
+    println(child.let {
         it.test()
         it.test01()
-    }
+    })
 }

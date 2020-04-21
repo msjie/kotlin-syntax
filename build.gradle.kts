@@ -11,4 +11,5 @@ repositories {
 
 dependencies {
     this.implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.5")
+    implementation("org.jetbrains.kotlin:kotlin-test-junit")
 }
